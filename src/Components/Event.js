@@ -1,0 +1,1 @@
+// Renders each individual event, handles onchange and onclick, and uses state and props to become a reusable component. Uses Routes to take each event to its own separate page. Possibly using MUI cards.
