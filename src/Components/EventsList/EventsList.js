@@ -1,10 +1,21 @@
-// This component simply renders and styles each of the Event components.
 import React from "react";
 import "./EventsList.css";
-import Event from "../Event/Event";
+import Event from "../Event/Event.js";
 
-function EventsList() {
-	return <div></div>;
+export default function EventsList({ events = [], updateEvent, deleteEvent }) {
+	function renderEvents() {
+		return events.map((event) => {
+			return (
+				<Event
+					className="events-container"
+					key={event.id}
+					event={event}
+					updateEvent={updateEvent}
+					deleteEvent={deleteEvent}
+				/>
+			);
+		});
+	}
+
+	return renderEvents();
 }
-
-export default EventsList;
