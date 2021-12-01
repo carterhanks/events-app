@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./App.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import EventsPage from "./Components/EventsPage/EventsPage";
 
