@@ -1,0 +1,26 @@
+.form-page-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.events-list-page-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.alert-success {
+	background-color: green;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.alert-failure {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 20px;
+}

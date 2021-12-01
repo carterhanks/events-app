@@ -1,0 +1,16 @@
+.event-fields-container {
+	width: 95%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+}
+
+.event-fields-container .event-field {
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}

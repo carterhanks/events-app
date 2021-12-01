@@ -1,0 +1,28 @@
+.form-container {
+	width: 95%;
+	margin-bottom: 50px;
+}
+
+.form-fields-container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.form-fields-container .form-field {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+span {
+	color: red;
+	opacity: 50%;
+}
+
+.form-container .submit-button {
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
