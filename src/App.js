@@ -1,8 +1,8 @@
-import "./App.css";
+import "./styles.css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import EventsPage from "./Components/EventsPage/EventsPage";
 
-function App() {
+export default function App() {
 	return (
 		<Router>
 			<div className="App">
@@ -26,5 +26,3 @@ function App() {
 		</Router>
 	);
 }
-
-export default App;

@@ -1,3 +1,41 @@
 .App {
+	font-family: sans-serif;
 	text-align: center;
+}
+
+ul {
+	width: 90vw;
+	list-style-type: none;
+	padding: 5px;
+}
+
+li {
+	padding: 25px;
+}
+
+.navLink {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	background-color: #2e7d32;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px grey;
+}
+
+.button:hover {
+	filter: brightness(90%);
+}
+
+hr {
+	margin-top: 0px;
+	height: 1px;
+	background-color: #ccc;
+	border: none;
 }
